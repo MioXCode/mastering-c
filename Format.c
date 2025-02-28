@@ -3,30 +3,30 @@
 int main()
 {
     /**
-     * 
-     * %c = char
-     * %s = string
-     * %f = float
-     * %lf = double
-     * %d = int
-     * 
+     * Format Specifiers:
+     * %c = untuk menampilkan karakter (char)
+     * %s = untuk menampilkan string/teks
+     * %f = untuk menampilkan bilangan desimal (float)
+     * %lf = untuk menampilkan bilangan desimal presisi ganda (double)
+     * %d = untuk menampilkan bilangan bulat (integer)
      */
 
     /**
-     * 
-     * %.1 = decimal
-     * %1 = min field width
-     * %- = left align
-     * 
+     * Format Flags:
+     * %.1 = menentukan jumlah digit desimal setelah koma (misal %.2f = 2 digit)
+     * %1 = menentukan lebar minimum field (misal %8.2f = lebar 8 karakter)
+     * %- = rata kiri (left align), default adalah rata kanan
      */
 
-    float item1 = 5.75;
-    float item2 = 10.00;
-    float item3 = 100.99;
+    // Deklarasi variabel float untuk harga barang
+    float item1 = 5.75;   // Harga barang 1
+    float item2 = 10.00;  // Harga barang 2
+    float item3 = 100.99; // Harga barang 3
 
-    printf("Item 1: $%8.2f\n", item1);
-    printf("Item 2: $%8.2f\n", item2);
-    printf("Item 3: $%8.2f\n", item3);
+    // Menampilkan harga dengan format 8 karakter lebar dan 2 digit desimal
+    printf("Item 1: $%8.2f\n", item1); // Output dengan padding kanan
+    printf("Item 2: $%8.2f\n", item2); // $   10.00
+    printf("Item 3: $%8.2f\n", item3); // $  100.99
 
     return 0;
 };
