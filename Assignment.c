@@ -14,11 +14,11 @@ int main()
      * 
      * Operator    | Contoh  | Ekuivalen dengan
      * ------------|---------|------------------
-     * +=         | a += b  | a = a + b
-     * -=         | a -= b  | a = a - b  
-     * *=         | a *= b  | a = a * b
-     * /=         | a /= b  | a = a / b
-     * %=         | a %= b  | a = a % b
+     * +=          | a += b  | a = a + b
+     * -=          | a -= b  | a = a - b  
+     * *=          | a *= b  | a = a * b
+     * /=          | a /= b  | a = a / b
+     * %=          | a %= b  | a = a % b
      */
 
     // Inisialisasi variabel
